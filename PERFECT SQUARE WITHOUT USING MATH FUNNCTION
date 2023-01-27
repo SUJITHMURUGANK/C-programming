@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int num,i,j,sum =0;
+    int ivar;
+    scanf("%d",&num);
+    for( i=1;i<num;i++)
+    {
+        for( j=i;j<=i;j++)
+        {  ivar=i*j;
+            if(ivar==num)
+          { sum++;
+          break;}
+        
+        } if(ivar==num)
+           {break;}
+    }
+    if(sum==1)
+   printf("%d is perfect sqaure of %d\n",i,num);
+ else
+      printf("%d have no perfect sqaure ",num);}
