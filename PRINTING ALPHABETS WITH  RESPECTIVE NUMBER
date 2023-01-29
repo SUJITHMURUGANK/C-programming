@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+int n,i;
+char c =65;
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+    if(c>=65&&c<=90){
+         if(i==n){
+            
+       
+        printf("%c",c);
+       
+    }
+    
+ c++;
+}else
+{printf("NO LETTER");
+    break;
+}
+ 
+    }
+}
